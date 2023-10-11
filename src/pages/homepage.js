@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/global/Navbar';
 import Header from '../components/global/Header';
 import About from '../components/home/About';
+import Services from '../components/home/Services';
 // import Footer from '../components/global/Footer';
 
 const Homepage = () => {
@@ -10,6 +11,7 @@ const Homepage = () => {
             <Navbar/>
             <Header/>
             <About/>
+            <Services/>
             {/* <Footer/> */}
         </div>
     );

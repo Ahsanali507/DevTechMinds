@@ -9,7 +9,7 @@ function Header() {
         <motion.h2 className="px-10 py-2 text-5xl font-bold heading">
           Make Your Marketing Real.
         </motion.h2>
-        <motion.p className="px-10 py-2 my-2 text-base font-extralight description">
+        <motion.p className="px-10 py-2 my-2 text-base text-gray-600 font-extralight description">
           Lorem ipsum dolor sit amet, conseonsectetur adipisi <br /> cing elit.
           Quidem, qui.
         </motion.p>
@@ -19,7 +19,7 @@ function Header() {
           Learn More
         </motion.button>
       </motion.div>
-      <motion.div className="w-1/2 container-right/2">
+      <motion.div className="w-1/2 container-right">
         <motion.img
           animate={{ y: [20, -20, 20], transition: { yoyo: Infinity, duration: 2, repeat: Infinity} }}
           src={homeImage}
