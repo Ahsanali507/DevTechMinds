@@ -14,7 +14,7 @@ function Header() {
           Quidem, qui.
         </motion.p>
         <motion.button
-          className="w-40 py-3 mx-10 my-2 text-center bg-orange-500 rounded text-slate-100 p- learnMore"
+          className="py-3 px-8 ml-10 text-sm font-medium text-center text-white rounded-lg bg-primary-600 sm:w-fit hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
           type="button">
           Learn More
         </motion.button>

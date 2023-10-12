@@ -3,7 +3,9 @@ import Navbar from '../components/global/Navbar';
 import Header from '../components/global/Header';
 import About from '../components/home/About';
 import Services from '../components/home/Services';
-// import Footer from '../components/global/Footer';
+import Features from '../components/home/Features';
+import Footer from '../components/global/Footer';
+import ContactUs from '../components/home/ContactUs';
 
 const Homepage = () => {
     return (
@@ -12,7 +14,9 @@ const Homepage = () => {
             <Header/>
             <About/>
             <Services/>
-            {/* <Footer/> */}
+            <Features/>
+            <ContactUs/>
+            <Footer/>
         </div>
     );
 }
