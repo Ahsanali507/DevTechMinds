@@ -6,6 +6,8 @@ import Services from '../components/home/Services';
 import Features from '../components/home/Features';
 import Footer from '../components/global/Footer';
 import ContactUs from '../components/home/ContactUs';
+import ChatBox from '../components/global/ChatBox';
+import Pricing from '../components/home/Pricing';
 
 const Homepage = () => {
     return (
@@ -15,7 +17,9 @@ const Homepage = () => {
             <About/>
             <Services/>
             <Features/>
+            <Pricing/>
             <ContactUs/>
+            <ChatBox/>
             <Footer/>
         </div>
     );

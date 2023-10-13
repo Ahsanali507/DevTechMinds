@@ -1,9 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import featuresImage from "../../assets/featuresImage.png";
-import solutionsImage from '../../assets/solutions.png';
-import businessImage from '../../assets/businessImage.png'
-
+import solutionsImage from "../../assets/solutions.png";
+import businessImage from "../../assets/businessImage.png";
 
 function Features() {
   return (
@@ -17,16 +16,16 @@ function Features() {
         <motion.div className="flex container-lower w-full items-center">
           <motion.div className="lower-left p-14 w-1/2">
             <h2 className="my-4 text-2xl font-thin text-gray-600 heading">
-              Better And Best Solutions <br /> For Small Businesses
+              Our Comprehensive Service Offerings - Elevate Your Tech Journey
             </h2>
             <p className="text-gray-500 font-extralight">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.hic non
-              asperiores quam nulla delectus maxime consequatur excepturi
-              distinctio atque? Lorem ipsum dolor sit amet consectetur liquam
-              esse at laborum harum vero maxime modi Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. At, quaerat.. Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Voluptatum dicta, voluptates
-              distinctio natus quidem animi?
+              Explore the diverse range of services offered by our software
+              company, each designed to deliver exceptional results and drive
+              your success. From cutting-edge web development projects and
+              data-driven machine learning solutions to innovative AI projects
+              and chatbots, we have the expertise to meet your every need.
+              Additionally, our personalized tutoring services empower
+              individuals to master programming languages and mathematics.
             </p>
           </motion.div>
           <motion.div className="lower-right p-14 w-96 ml-36  h-96 bg-cyan-500 rounded-full flex justify-center items-center">
@@ -39,7 +38,7 @@ function Features() {
                 duration: 2,
                 delay: 0.3,
                 ease: [0.5, 0.71, 1, 1.5],
-            }}
+              }}
               className="h-80 w-80"
               src={featuresImage}
               alt="no img"
@@ -59,7 +58,7 @@ function Features() {
                 duration: 2,
                 delay: 0.3,
                 ease: [0.5, 0.71, 1, 1.5],
-            }}
+              }}
               className="h-80 w-80"
               src={solutionsImage}
               alt="no img"
@@ -67,34 +66,35 @@ function Features() {
           </motion.div>
         </motion.div>
         <motion.div className="lower-left p-14 ">
-            <h2 className="my-4 text-2xl font-thin text-gray-600 heading">
-              Better And Best Solutions <br /> For Small Businesses
-            </h2>
-            <p className="text-gray-500 font-extralight">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.hic non
-              asperiores quam nulla delectus maxime consequatur excepturi
-              distinctio atque? Lorem ipsum dolor sit amet consectetur liquam
-              esse at laborum harum vero maxime modi Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. At, quaerat.. Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Voluptatum dicta, voluptates
-              distinctio natus quidem animi?
-            </p>
-          </motion.div>
+          <h2 className="my-4 text-2xl font-thin text-gray-600 heading">
+            Achieve Technological Excellence - Your Success, <br /> Our Priority
+          </h2>
+          <p className="text-gray-500 font-extralight">
+            Our commitment to technological excellence is evident in every facet
+            of our services. Whether it's developing web applications, delving
+            into machine learning, or exploring the possibilities of artificial
+            intelligence, we prioritize your success. With cross-platform
+            compatibility and user-centric design, our web app development
+            projects deliver immersive user experiences. We ensure scalability,
+            security, and optimized performance to future-proof your
+            applications.
+          </p>
+        </motion.div>
       </motion.div>
       <motion.div className="features-subcontainer3 bg-gradient-to-r from-white to-gray-150 h-screen w-full flex items-center">
         <motion.div className="flex container-lower w-full items-center">
           <motion.div className="lower-left p-14 w-1/2">
             <h2 className="my-4 text-2xl font-thin text-gray-600 heading">
-              Better And Best Solutions <br /> For Small Businesses
+              Pioneering Machine Learning Solutions - Uncover the Power of Data
             </h2>
             <p className="text-gray-500 font-extralight">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.hic non
-              asperiores quam nulla delectus maxime consequatur excepturi
-              distinctio atque? Lorem ipsum dolor sit amet consectetur liquam
-              esse at laborum harum vero maxime modi Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. At, quaerat.. Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Voluptatum dicta, voluptates
-              distinctio natus quidem animi?
+              At the heart of our machine learning projects lies a dedication to
+              data-driven insights. We excel in custom model development,
+              predictive analytics, and seamless integration into your existing
+              systems. Count on us for continuous support and expertise in
+              frameworks like TensorFlow, PyTorch, scikit-learn, and more. Your
+              data isn't just a collection of numbers; it's the foundation of
+              intelligent, informed decisions that drive your business forward.
             </p>
           </motion.div>
           <motion.div className="lower-right p-14 w-96 ml-36  h-96 bg-cyan-500 rounded-full flex justify-center items-center">
@@ -107,7 +107,7 @@ function Features() {
                 duration: 2,
                 delay: 0.3,
                 ease: [0.5, 0.71, 1, 1.5],
-            }}
+              }}
               className="h-80 w-80"
               src={businessImage}
               alt="no img"
