@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 
 function Services() {
   return (
-    <motion.div className="w-full services-container bg-gradient-to-r from-white to-gray-100">
+    <motion.div className="w-full h-full services-container bg-gradient-to-r from-white to-gray-100">
       <motion.div className="container-upper">
-        <h2 className="px-10 py-6 text-3xl font-light text-gray-700 heading">
+        <h2 className="px-10 py-6 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
           Our Services
         </h2>
       </motion.div>

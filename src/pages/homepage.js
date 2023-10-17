@@ -8,6 +8,7 @@ import Footer from '../components/global/Footer';
 import ContactUs from '../components/home/ContactUs';
 import ChatBox from '../components/global/ChatBox';
 import Pricing from '../components/home/Pricing';
+import Clients from '../components/home/Clients';
 
 const Homepage = () => {
     return (
@@ -18,6 +19,7 @@ const Homepage = () => {
             <Services/>
             <Features/>
             <Pricing/>
+            <Clients/>
             <ContactUs/>
             <ChatBox/>
             <Footer/>

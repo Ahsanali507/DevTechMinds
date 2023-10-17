@@ -9,7 +9,7 @@ function Features() {
     <motion.div className="features-container">
       <motion.div className="features-subcontainer1 bg-gradient-to-r from-white to-gray-150 h-screen w-full">
         <motion.div className="container-upper w-full">
-          <h2 className="px-10 py-6 text-3xl font-light text-gray-700 heading">
+          <h2 className="px-10 py-6 mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Features
           </h2>
         </motion.div>

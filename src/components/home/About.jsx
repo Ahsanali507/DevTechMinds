@@ -4,9 +4,9 @@ import aboutImage from "../../assets/aboutImage.jpg";
 // import {FaBeer} from 'react-icons/fa'
 function About() {
   return (
-    <motion.div className="about-container bg-gradient-to-r from-white to-gray-150">
+    <motion.div className="about-container bg-gradient-to-r from-white to-gray-150 h-full">
       <motion.div className="container-upper">
-        <h2 className="px-10 py-6 text-3xl font-light text-gray-700 heading">
+        <h2 className="px-10 py-6 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
           About Us
         </h2>
       </motion.div>
