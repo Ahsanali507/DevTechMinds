@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import companyLogo from "../../assets/Devtechminds logo.gif";
+import companyLogo from "../../assets/DevTechLog.gif";
 function Navbar() {
   return (
     <motion.nav className="flex bg-gradient-to-r from-cyan-500 to-blue-500navbar-container">
