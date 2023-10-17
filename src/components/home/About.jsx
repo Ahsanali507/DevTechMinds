@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import aboutImage from "../../assets/aboutImage.jpg";
+import aboutImage from "../../assets/aboutusImage.jpg";
 // import {FaBeer} from 'react-icons/fa'
 function About() {
   return (
@@ -41,15 +41,15 @@ function About() {
         </motion.div>
       </motion.div>
       <motion.div className="flex container-lower">
-        <motion.div className="lower-left p-14">
+        <motion.div className="lower-left p-14 w-1/2">
           <h2 className="text-2xl my-2 font-thin text-gray-600 heading">
             Client-Centric Approach
           </h2>
           <p className="text-gray-500 font-extralight">
-            At DevTechMinds, our commitment to our clients is unwavering. We prioritize your unique needs, goals, and challenges. Our client-centric approach ensures that every project is a collaborative journey, where your vision becomes our mission. With open communication, transparency, and a relentless focus on delivering value, we are dedicated to building lasting partnerships that drive your success and satisfaction.
+            At DevTechMinds, our commitment to our clients is unwavering. We prioritize your unique needs, goals, and challenges. Our client-centric approach ensures that every project is a collaborative journey, where your vision becomes our mission. With open communication, transparency, and a relentless focus on delivering value, we are dedicated to building lasting partnerships that drive your success and satisfaction. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi iusto sint obcaecati animi ipsam adipisci, esse illum? Cum, molestiae accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam est officia eveniet veniam aliquam amet molestias reprehenderit facere? Modi, commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsum repellat tenetur ullam.
           </p>
         </motion.div>
-        <motion.div className="lower-right p-14">
+        <motion.div className="lower-right p-14 w-1/2">
           <motion.img src={aboutImage} alt="no img" />
         </motion.div>
       </motion.div>
