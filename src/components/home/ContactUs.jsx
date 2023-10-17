@@ -7,6 +7,7 @@ function ContactUs() {
         <h2 className="text-center mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
           Contact Us
         </h2>
+        <div className="h-1 mx-auto bg-primary-300 w-24 opacity-75 mt-4 rounded"></div>
         <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
           Got a technical issue? Want to get any help about anything feel free to contact us? <strong className='font-bold'>Call at: <span className='text-black'>03186595507</span></strong> and also <strong className='font-bold'> Email us: <span className='text-black'>ahsanzjt@gmail.com</span> </strong>
         </p>

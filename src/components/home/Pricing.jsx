@@ -7,10 +7,10 @@ function Pricing() {
         <h2 className="text-center mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
           Pricing
         </h2>
+        <div className="h-1 mx-auto bg-primary-300 w-24 opacity-75 mt-4 rounded"></div>
         <p className="text-center text-lg text-gray-700 mt-2 px-6">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
         </p>
-        <div className="h-1 mx-auto bg-indigo-200 w-24 opacity-75 mt-4 rounded"></div>
 
         <div className="max-w-full md:max-w-6xl mx-auto my-3 md:px-8">
           <div className="relative  flex flex-col md:flex-row items-center">

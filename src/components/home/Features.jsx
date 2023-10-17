@@ -12,6 +12,7 @@ function Features() {
           <h2 className="px-10 py-6 mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Features
           </h2>
+          <div className="h-1 mx-auto bg-primary-300 w-24 opacity-75 rounded ml-16"></div>
         </motion.div>
         <motion.div className="flex container-lower w-full items-center">
           <motion.div className="lower-left p-14 w-1/2">

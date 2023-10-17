@@ -9,6 +9,7 @@ function About() {
         <h2 className="px-10 py-6 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
           About Us
         </h2>
+        <div className="h-1 bg-primary-300 w-24 opacity-75 rounded ml-16"></div>
       </motion.div>
       <motion.div className="flex items-center justify-center space-x-6 text-center container-middle">
         <motion.div className="p-14 left">
