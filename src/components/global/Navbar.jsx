@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import companyLogo from "../../assets/DevTechLog.gif";
 function Navbar() {
   return (
-    <motion.nav className="flex bg-gradient-to-r from-cyan-500 to-blue-500navbar-container">
+    <motion.nav className="flex bg-gradient-to-r from-cyan-500 to-blue-100 navbar-container">
       <motion.div className="navbar-upper">
         <motion.div className="w-40 h-40 company-logo">
           <motion.img className="p-3 logo" src={companyLogo} alt="no img" />
@@ -11,7 +11,7 @@ function Navbar() {
       </motion.div>
       <motion.div className="h-20 flex items-center justify-end w-full font-sans navbar-lower">
         <motion.div className="links">
-          <motion.ul className="flex ">
+          <motion.ul className="flex ul">
             <motion.li className="px-6">
               <motion.a
                 whileHover={{

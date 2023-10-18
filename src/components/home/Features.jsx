@@ -14,7 +14,7 @@ function Features() {
           </h2>
           <div className="h-1 mx-auto bg-primary-300 w-24 opacity-75 rounded ml-16"></div>
         </motion.div>
-        <motion.div className="flex container-lower w-full items-center">
+        <motion.div className="flex feature-container-lower w-full items-center">
           <motion.div className="lower-left p-14 w-1/2">
             <h2 className="my-4 text-2xl font-thin text-gray-600 heading">
               Our Comprehensive Service Offerings - Elevate Your Tech Journey
@@ -48,7 +48,7 @@ function Features() {
         </motion.div>
       </motion.div>
       <motion.div className="features-subcontainer2 bg-gradient-to-r from-white to-gray-100 h-screen w-full flex items-center">
-        <motion.div className="flex container-lower w-full items-center">
+        <motion.div className="flex feature-container-lower w-full items-center">
           <motion.div className="lower-right p-14 w-96 ml-16  h-96 bg-cyan-500 rounded-full flex justify-center items-center">
             <motion.img
               whileHover={{
@@ -66,7 +66,7 @@ function Features() {
             />
           </motion.div>
         </motion.div>
-        <motion.div className="lower-left p-14 ">
+        <motion.div className="feature-container-lower-left p-14 ">
           <h2 className="my-4 text-2xl font-thin text-gray-600 heading">
             Achieve Technological Excellence - Your Success, <br /> Our Priority
           </h2>
@@ -83,7 +83,7 @@ function Features() {
         </motion.div>
       </motion.div>
       <motion.div className="features-subcontainer3 bg-gradient-to-r from-white to-gray-150 h-screen w-full flex items-center">
-        <motion.div className="flex container-lower w-full items-center">
+        <motion.div className="flex feature-container-lower w-full items-center">
           <motion.div className="lower-left p-14 w-1/2">
             <h2 className="my-4 text-2xl font-thin text-gray-600 heading">
               Pioneering Machine Learning Solutions - Uncover the Power of Data

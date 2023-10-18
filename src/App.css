@@ -45,3 +45,101 @@
   margin-top: -60px;
 }
 
+
+/* styling for Header.jsx */
+@media screen and (max-width: 730px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-container-left{
+    width: 50%;
+  }
+  .header-container-right{
+    width: 100%;
+  }
+}
+
+/* styling for About.jsx */
+@media screen and (max-width: 800px) {
+  .about-container-middle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .about-container-lower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .about-container-lower .lower-left{
+    width: 100%;
+  }
+  .about-container-lower .lower-right{
+    width: 100%;
+  }
+}
+
+/* styling for Services.jsx */
+@media screen and (max-width: 800px) {
+  .service-container-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .service-container-middle div{
+    width: 70%;
+    margin: 6px 0px;
+  }
+  .service-container-lower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .service-container-lower div{
+    width: 70%;
+    margin: 6px 0px;
+  }
+}
+
+/* styling for Features.jsx */
+@media screen and (max-width: 800px) {
+  .feature-container-lower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 24px 0px;
+  }
+  .feature-subcontainer2{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .feature-subcontainer2 div{
+    width: 100%;
+  }
+  .feature-container-lower div{
+    width: 70%;
+    text-align: center;
+    margin: 0px;
+  }
+}
+
+/* styling for Features.jsx */
+@media screen and (max-width: 800px) {
+  .links .ul{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+  }
+}

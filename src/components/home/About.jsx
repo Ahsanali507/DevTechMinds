@@ -5,13 +5,13 @@ import aboutImage from "../../assets/aboutusImage.jpg";
 function About() {
   return (
     <motion.div className="about-container bg-gradient-to-r from-white to-gray-150 h-full">
-      <motion.div className="container-upper">
+      <motion.div className="about-container-upper">
         <h2 className="px-10 py-6 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
           About Us
         </h2>
         <div className="h-1 bg-primary-300 w-24 opacity-75 rounded ml-16"></div>
       </motion.div>
-      <motion.div className="flex items-center justify-center space-x-6 text-center container-middle">
+      <motion.div className="flex items-center justify-center space-x-6 text-center about-container-middle">
         <motion.div className="p-14 left">
           {/* <FaBeer /> */}
           <h2 className="my-4 text-2xl font-thin text-gray-600 heading">
@@ -40,7 +40,7 @@ function About() {
           </p>
         </motion.div>
       </motion.div>
-      <motion.div className="flex container-lower">
+      <motion.div className="flex about-container-lower">
         <motion.div className="lower-left p-14 w-1/2">
           <h2 className="text-2xl my-2 font-thin text-gray-600 heading">
             Client-Centric Approach

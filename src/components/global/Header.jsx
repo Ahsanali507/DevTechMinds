@@ -4,8 +4,8 @@ import homeImage from "../../assets/home image.png";
 
 function Header() {
   return (
-    <motion.div className="flex w-full h-full bg-gradient-to-r from-cyan-500 to-blue-500header-container">
-      <motion.div className="flex flex-col justify-center ont-sans aw-1/2 container-left">
+    <motion.div className="flex w-full h-full bg-gradient-to-r from-cyan-500 to-blue-100 header-container">
+      <motion.div className="flex flex-col justify-center ont-sans aw-1/2 header-container-left">
         <motion.h2 className="px-10 py-2 text-5xl font-bold heading">
           Make Your Marketing Real.
         </motion.h2>
@@ -19,7 +19,7 @@ function Header() {
           Learn More
         </motion.button>
       </motion.div>
-      <motion.div className="w-1/2 container-right">
+      <motion.div className="w-1/2 header-container-right">
         <motion.img
           animate={{ y: [20, -20, 20], transition: { yoyo: Infinity, duration: 2, repeat: Infinity} }}
           src={homeImage}
