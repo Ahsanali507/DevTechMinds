@@ -5,7 +5,7 @@ function Services() {
   return (
     <motion.div className="w-full h-full services-container bg-gradient-to-r from-white to-gray-100">
       <motion.div className="service-container-upper">
-        <h2 className="px-10 py-6 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+        <h2 className="px-10 py-6 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">
           Our Services
         </h2>
         <div className="h-1 bg-primary-300 w-24 opacity-75 rounded ml-20"></div>

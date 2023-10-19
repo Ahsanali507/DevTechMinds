@@ -4,7 +4,7 @@ function Pricing() {
   return (
     <section className="h-full">
       <div className="pricing-container max-w-full mx-auto py-24 px-6 bg-gradient-to-r from-white to-gray-200">
-        <h2 className="text-center mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+        <h2 className="text-center mb-4 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">
           Pricing
         </h2>
         <div className="h-1 mx-auto bg-primary-300 w-24 opacity-75 mt-4 rounded"></div>
