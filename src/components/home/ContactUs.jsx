@@ -1,7 +1,8 @@
 import React from 'react'
-
+import { Element } from 'react-scroll'
 function ContactUs() {
   return (
+    <Element name="contact">
     <section className="bg-gradient-to-r from-white to-gray-100 h-full">
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2 className="text-center mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
@@ -56,6 +57,7 @@ function ContactUs() {
         </form>
       </div>
     </section>
+    </Element>
   )
 }
 

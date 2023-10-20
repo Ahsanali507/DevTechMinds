@@ -1,7 +1,9 @@
 import React from 'react'
+import { Element } from 'react-scroll'
 
 function Clients() {
     return (
+        <Element name="clients">
         <section class="bg-white dark:bg-gray-900 clients-container h-full">
             <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
                 <div class="mx-auto mb-8 max-w-screen-sm lg:mb-16">
@@ -129,6 +131,7 @@ function Clients() {
                 </div>
             </div>
         </section>
+        </Element>
     )
 }
 

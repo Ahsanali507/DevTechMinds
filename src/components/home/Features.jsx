@@ -3,9 +3,11 @@ import { motion } from "framer-motion";
 import featuresImage from "../../assets/featuresImage.png";
 import solutionsImage from "../../assets/solutions.png";
 import businessImage from "../../assets/businessImage.png";
+import { Element } from "react-scroll";
 
 function Features() {
   return (
+    <Element name="features">
     <motion.div className="features-container">
       <motion.div className="features-subcontainer1 bg-gradient-to-r from-white to-gray-150 h-screen w-full">
         <motion.div className="container-upper w-full">
@@ -117,6 +119,7 @@ function Features() {
         </motion.div>
       </motion.div>
     </motion.div>
+    </Element>
   );
 }
 

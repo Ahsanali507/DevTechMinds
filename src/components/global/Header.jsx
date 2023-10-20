@@ -1,9 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import homeImage from "../../assets/home image.png";
+import { Element } from "react-scroll";
 
 function Header() {
   return (
+    <Element name="home">
     <motion.div className="flex w-full h-full bg-gradient-to-r from-cyan-500 to-blue-100 header-container">
       <motion.div className="flex flex-col justify-center ont-sans aw-1/2 header-container-left">
         <motion.h2 className="px-10 py-2 text-4xl font-bold heading">
@@ -27,6 +29,7 @@ function Header() {
         />
       </motion.div>
     </motion.div>
+    </Element>
   );
 }
 

@@ -1,8 +1,10 @@
 import React from 'react';
+import { Element } from 'react-scroll';
 
 function Pricing() {
   return (
-    <section className="h-full">
+    <Element name="pricing">
+    <section className="h-full" id="pricing">
       <div className="pricing-container max-w-full mx-auto py-24 px-6 bg-gradient-to-r from-white to-gray-200">
         <h2 className="text-center mb-4 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">
           Pricing
@@ -252,6 +254,7 @@ function Pricing() {
         </div>
       </div>
     </section>
+    </Element>
   );
 }
 

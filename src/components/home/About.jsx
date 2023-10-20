@@ -1,9 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import aboutImage from "../../assets/aboutusImage.jpg";
+import { Element } from "react-scroll";
 // import {FaBeer} from 'react-icons/fa'
 function About() {
   return (
+    <Element name="about">
     <motion.div className="about-container bg-gradient-to-r from-white to-gray-150 h-full">
       <motion.div className="about-container-upper">
         <h2 className="px-10 py-6 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">
@@ -54,6 +56,7 @@ function About() {
         </motion.div>
       </motion.div>
     </motion.div>
+    </Element>
   );
 }
 
