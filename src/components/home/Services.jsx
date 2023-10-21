@@ -7,26 +7,26 @@ function Services() {
     <Element name="services">
     <motion.div className="w-full h-full services-container bg-gradient-to-r from-white to-gray-100">
       <motion.div className="service-container-upper">
-        <h2 className="px-10 py-6 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+        <h2 className="px-10 py-6 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
           Our Services
         </h2>
-        <div className="h-1 bg-primary-300 w-24 opacity-75 rounded ml-20"></div>
+        <div className="w-24 h-1 ml-20 rounded opacity-75 bg-primary-300"></div>
       </motion.div>
       <motion.div className="flex items-center justify-center m-6 space-x-6 service-container-middle">
-        <motion.div className="p-8 border-2 border-gray-100 border-solid rounded-md left text-justify" whileHover={{scale:1.01, boxShadow: '0 5px 15px rgba(0,0,0,0.3)', borderRadius:'8px'}}>
+        <motion.div className="p-8 text-justify border-2 border-gray-100 border-solid rounded-md left" whileHover={{scale:1.01, boxShadow: '0 5px 15px rgba(0,0,0,0.3)', borderRadius:'8px'}}>
           {/* <FaBeer /> */}
           <h2
-            className="my-4 text-2xl font-thin text-gray-600 heading text-center">
+            className="my-4 text-2xl font-thin text-center text-gray-600 heading">
             Web App Development
           </h2>
           <p className="text-gray-500 font-extralight">
-          Elevate your digital presence with our web app development services. We specialize in MERN stack, Django, Flask, Java, PHP Laravel, Python, JavaScript, ASP.NET, and Android development. From interactive web applications to robust mobile solutions, we bring your ideas to life
+            Elevate your digital presence with our web app development services. We specialize in MERN stack, Django, Flask, Java, PHP Laravel, Python, JavaScript, ASP.NET, and Android development. From interactive web applications to robust mobile solutions, we bring your ideas to life
           </p>
         </motion.div>
         <motion.div
-          className="p-8 border-2 border-gray-100 border-solid rounded-md middle text-justify" whileHover={{scale:1.01, boxShadow: '0 5px 15px rgba(0,0,0,0.3)', borderRadius:'8px'}}>
+          className="p-8 text-justify border-2 border-gray-100 border-solid rounded-md middle" whileHover={{scale:1.01, boxShadow: '0 5px 15px rgba(0,0,0,0.3)', borderRadius:'8px'}}>
           {/* <FaBeer/> */}
-          <h2 className="my-4 text-2xl font-thin text-gray-600 heading text-center">
+          <h2 className="my-4 text-2xl font-thin text-center text-gray-600 heading">
             Machine Learning
           </h2>
           <p className="text-gray-500 font-extralight">
@@ -34,9 +34,9 @@ function Services() {
           </p>
         </motion.div>
         <motion.div
-          className="p-8 border-2 border-gray-100 border-solid rounded-md right text-justify" whileHover={{scale:1.01, boxShadow: '0 5px 15px rgba(0,0,0,0.3)', borderRadius:'8px'}}>
+          className="p-8 text-justify border-2 border-gray-100 border-solid rounded-md right" whileHover={{scale:1.01, boxShadow: '0 5px 15px rgba(0,0,0,0.3)', borderRadius:'8px'}}>
           {/* <FaBeer/> */}
-          <h2 className="my-4 text-2xl font-thin text-gray-600 heading text-center">
+          <h2 className="my-4 text-2xl font-thin text-center text-gray-600 heading">
             Artificial Intelligence
           </h2>
           <p className="text-gray-500 font-extralight">
@@ -44,11 +44,11 @@ function Services() {
           </p>
         </motion.div>
       </motion.div>
-      <motion.div className="flex items-center justify-center m-6 space-x-6 service-container-lower text-justify">
+      <motion.div className="flex items-center justify-center m-6 space-x-6 text-justify service-container-lower">
         <motion.div
           className="p-8 border-2 border-gray-100 border-solid rounded-md left" whileHover={{scale:1.01, boxShadow: '0 5px 15px rgba(0,0,0,0.3)', borderRadius:'8px'}}>
           {/* <FaBeer /> */}
-          <h2 className="my-4 text-2xl font-thin text-gray-600 heading text-center">
+          <h2 className="my-4 text-2xl font-thin text-center text-gray-600 heading">
             AI Chatbots
           </h2>
           <p className="text-gray-500 font-extralight">
@@ -56,9 +56,9 @@ function Services() {
           </p>
         </motion.div>
         <motion.div
-          className="p-8 border-2 border-gray-100 border-solid rounded-md middle text-justify" whileHover={{scale:1.01, boxShadow: '0 5px 15px rgba(0,0,0,0.3)', borderRadius:'8px'}}>
+          className="p-8 text-justify border-2 border-gray-100 border-solid rounded-md middle" whileHover={{scale:1.01, boxShadow: '0 5px 15px rgba(0,0,0,0.3)', borderRadius:'8px'}}>
           {/* <FaBeer/> */}
-          <h2 className="my-4 text-2xl font-thin text-gray-600 heading text-center">
+          <h2 className="my-4 text-2xl font-thin text-center text-gray-600 heading">
             Tutoring Services
           </h2>
           <p className="text-gray-500 font-extralight">
@@ -66,9 +66,9 @@ function Services() {
           </p>
         </motion.div>
         <motion.div
-          className="p-8 border-2 border-gray-100 border-solid rounded-md right text-justify" whileHover={{scale:1.01, boxShadow: '0 5px 15px rgba(0,0,0,0.3)', borderRadius:'8px'}}>
+          className="p-8 text-justify border-2 border-gray-100 border-solid rounded-md right" whileHover={{scale:1.01, boxShadow: '0 5px 15px rgba(0,0,0,0.3)', borderRadius:'8px'}}>
           {/* <FaBeer/> */}
-          <h2 className="my-4 text-2xl font-thin text-gray-600 heading text-center">
+          <h2 className="my-4 text-2xl font-thin text-center text-gray-600 heading">
             Consulting and Training
           </h2>
           <p className="text-gray-500 font-extralight">

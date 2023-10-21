@@ -8,14 +8,14 @@ function Clients() {
             <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
                 <div class="mx-auto mb-8 max-w-screen-sm lg:mb-16">
                     <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Clients</h2>
-                    <div className="h-1 mx-auto bg-primary-300 w-24 opacity-75 mt-4 rounded"></div>
+                    <div className="w-24 h-1 mx-auto mt-4 rounded opacity-75 bg-primary-300"></div>
                     <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">We're proud to have worked with a diverse range of clients, from startups to enterprises, helping them achieve their tech-driven goals and surpass their expectations.</p>
                 </div>
                 <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                     <div class="text-center text-gray-500 dark:text-gray-400">
                         <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar"/>
                             <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="#">Bonnie Green</a>
+                                <a href="#">Junaid Khan</a>
                             </h3>
                             <p>CEO/Co-founder</p>
                             <ul class="flex justify-center mt-4 space-x-4">
@@ -44,7 +44,7 @@ function Clients() {
                     <div class="text-center text-gray-500 dark:text-gray-400">
                         <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/helene-engels.png" alt="Helene Avatar"/>
                             <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="#">Helene Engels</a>
+                                <a href="#">Hamza Riaz</a>
                             </h3>
                             <p>CTO/Co-founder</p>
                             <ul class="flex justify-center mt-4 space-x-4">
@@ -73,7 +73,7 @@ function Clients() {
                     <div class="text-center text-gray-500 dark:text-gray-400">
                         <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Avatar" />
                         <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            <a href="#">Jese Leos</a>
+                            <a href="#">Ahmad Ali</a>
                         </h3>
                         <p>SEO & Marketing</p>
                         <ul class="flex justify-center mt-4 space-x-4">
@@ -102,7 +102,7 @@ function Clients() {
                     <div class="text-center text-gray-500 dark:text-gray-400">
                         <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png" alt="Joseph Avatar"/>
                             <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                <a href="#">Joseph Mcfall</a>
+                                <a href="#">Ahsan Ali</a>
                             </h3>
                             <p>Sales</p>
                             <ul class="flex justify-center mt-4 space-x-4">

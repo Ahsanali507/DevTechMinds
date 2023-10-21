@@ -9,15 +9,15 @@ function Features() {
   return (
     <Element name="features">
     <motion.div className="features-container">
-      <motion.div className="features-subcontainer1 bg-gradient-to-r from-white to-gray-150 h-screen w-full">
-        <motion.div className="container-upper w-full">
-          <h2 className="px-10 py-6 mb-4 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+      <motion.div className="w-full h-screen features-subcontainer1 bg-gradient-to-r from-white to-gray-150">
+        <motion.div className="w-full container-upper">
+          <h2 className="px-10 py-6 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
             Features
           </h2>
-          <div className="h-1 mx-auto bg-primary-300 w-24 opacity-75 rounded ml-16"></div>
+          <div className="w-24 h-1 mx-auto ml-16 rounded opacity-75 bg-primary-300"></div>
         </motion.div>
-        <motion.div className="flex feature-container-lower w-full items-center">
-          <motion.div className="lower-left p-14 w-1/2">
+        <motion.div className="flex items-center w-full feature-container-lower">
+          <motion.div className="w-1/2 lower-left p-14">
             <h2 className="my-4 text-2xl font-thin text-gray-600 heading">
               Our Comprehensive Service Offerings - Elevate Your Tech Journey
             </h2>
@@ -31,7 +31,7 @@ function Features() {
               individuals to master programming languages and mathematics.
             </p>
           </motion.div>
-          <motion.div className="lower-right p-14 w-96 ml-36  h-96 bg-cyan-500 rounded-full flex justify-center items-center">
+          <motion.div className="flex items-center justify-center rounded-full lower-right p-14 w-96 ml-36 h-96 bg-cyan-500">
             <motion.img
               whileHover={{
                 scale: 1.3,
@@ -49,9 +49,9 @@ function Features() {
           </motion.div>
         </motion.div>
       </motion.div>
-      <motion.div className="features-subcontainer2 bg-gradient-to-r from-white to-gray-100 h-screen w-full flex items-center">
-        <motion.div className="flex feature-container-lower w-full items-center">
-          <motion.div className="lower-right p-14 w-96 ml-16  h-96 bg-cyan-500 rounded-full flex justify-center items-center">
+      <motion.div className="flex items-center w-full h-screen features-subcontainer2 bg-gradient-to-r from-white to-gray-100">
+        <motion.div className="flex items-center w-full feature-container-lower">
+          <motion.div className="flex items-center justify-center ml-16 rounded-full lower-right p-14 w-96 h-96 bg-cyan-500">
             <motion.img
               whileHover={{
                 scale: 1.3,
@@ -84,9 +84,9 @@ function Features() {
           </p>
         </motion.div>
       </motion.div>
-      <motion.div className="features-subcontainer3 bg-gradient-to-r from-white to-gray-150 h-screen w-full flex items-center">
-        <motion.div className="flex feature-container-lower w-full items-center">
-          <motion.div className="lower-left p-14 w-1/2">
+      <motion.div className="flex items-center w-full h-screen features-subcontainer3 bg-gradient-to-r from-white to-gray-150">
+        <motion.div className="flex items-center w-full feature-container-lower">
+          <motion.div className="w-1/2 lower-left p-14">
             <h2 className="my-4 text-2xl font-thin text-gray-600 heading">
               Pioneering Machine Learning Solutions - Uncover the Power of Data
             </h2>
@@ -100,7 +100,7 @@ function Features() {
               intelligent, informed decisions that drive your business forward.
             </p>
           </motion.div>
-          <motion.div className="lower-right p-14 w-96 ml-36  h-96 bg-cyan-500 rounded-full flex justify-center items-center">
+          <motion.div className="flex items-center justify-center rounded-full lower-right p-14 w-96 ml-36 h-96 bg-cyan-500">
             <motion.img
               whileHover={{
                 scale: 1.3,
