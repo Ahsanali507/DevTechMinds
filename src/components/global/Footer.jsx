@@ -3,12 +3,11 @@ import { motion } from "framer-motion";
 function Footer() {
   return (
       <motion.div className="footer-container">
-        <motion.div className="flex w-full h-80 font-sans footer-upper items-center bg-gradient-to-r from-white to-gray-200">
-          <motion.div className="w-1/4 px-2 aboutsection flex flex-col justify-center items-center ">
-            <h3 className="text-2xl font-light pb-20">About Us</h3>
+        <motion.div className="flex items-center w-full font-sans h-80 footer-upper bg-gradient-to-r from-white to-gray-200">
+          <motion.div className="flex flex-col items-center justify-center w-1/4 px-2 aboutsection ">
+            <h3 className="pb-20 text-2xl font-light">About Us</h3>
             <p className="ml-12">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
-              aut.
+              Lorem ipsum dolor sit amet consectetur 
             </p>
           </motion.div>
           <motion.div className="flex justify-center w-1/4 company">
@@ -21,7 +20,7 @@ function Footer() {
                   }}
                   className="home"
                   href="/">
-                  Home
+                  link1
                 </motion.a>
               </motion.li>
               <motion.li className="px-6 pt-4">
@@ -31,7 +30,7 @@ function Footer() {
                   }}
                   className="about"
                   href="/">
-                  About
+                  link2
                 </motion.a>
               </motion.li>
               <motion.li className="px-6 pt-4">
@@ -41,7 +40,7 @@ function Footer() {
                   }}
                   className="services"
                   href="/">
-                  Services
+                  link3
                 </motion.a>
               </motion.li>
               <motion.li className="px-6 pt-4">
@@ -51,14 +50,14 @@ function Footer() {
                   }}
                   className="features"
                   href="/">
-                  Features
+                  link4
                 </motion.a>
               </motion.li>
             </motion.ul>
           </motion.div>
           <motion.div className="flex justify-center w-1/4 support">
           <motion.ul className="supports">
-          <h3 className="pl-5 text-2xl font-light">Support</h3>
+          <h3 className="pl-5 text-2xl font-light">Supports</h3>
               <motion.li className="px-6 pt-4">
                 <motion.a
                   whileHover={{
@@ -66,7 +65,7 @@ function Footer() {
                   }}
                   className="home"
                   href="/">
-                  Home
+                  support1
                 </motion.a>
               </motion.li>
               <motion.li className="px-6 pt-4">
@@ -76,7 +75,7 @@ function Footer() {
                   }}
                   className="about"
                   href="/">
-                  About
+                  support2
                 </motion.a>
               </motion.li>
               <motion.li className="px-6 pt-4">
@@ -86,7 +85,7 @@ function Footer() {
                   }}
                   className="services"
                   href="/">
-                  Services
+                  Support3
                 </motion.a>
               </motion.li>
               <motion.li className="px-6 pt-4">
@@ -96,14 +95,14 @@ function Footer() {
                   }}
                   className="features"
                   href="/">
-                  Features
+                  Support4
                 </motion.a>
               </motion.li>
             </motion.ul>
           </motion.div>
           <motion.div className="flex justify-center w-1/4 rules">
           <motion.ul className="legalrules">
-            <h3 className="pl-5 text-2xl font-light">Legal</h3>
+            <h3 className="pl-5 text-2xl font-light">Rules</h3>
               <motion.li className="px-6 pt-4">
                 <motion.a
                   whileHover={{
@@ -111,7 +110,7 @@ function Footer() {
                   }}
                   className="home"
                   href="/">
-                  Home
+                  Rule1
                 </motion.a>
               </motion.li>
               <motion.li className="px-6 pt-4">
@@ -121,7 +120,7 @@ function Footer() {
                   }}
                   className="about"
                   href="/">
-                  About
+                  Rule2
                 </motion.a>
               </motion.li>
               <motion.li className="px-6 pt-4">
@@ -131,7 +130,7 @@ function Footer() {
                   }}
                   className="services"
                   href="/">
-                  Services
+                  Rule3
                 </motion.a>
               </motion.li>
               <motion.li className="px-6 pt-4">
@@ -141,14 +140,14 @@ function Footer() {
                   }}
                   className="features"
                   href="/">
-                  Features
+                  Rule4
                 </motion.a>
               </motion.li>
             </motion.ul>
           </motion.div>
         </motion.div>
-        <motion.div className="font-sans text-center bg-black footer-lower h-14 flex justify-center items-center">
-            <small className="text-white ">2023@ DevMinds developed by Ahsan's Themes</small>
+        <motion.div className="flex items-center justify-center font-sans text-center bg-black footer-lower h-14">
+            <small className="text-white ">2023@ DevTech developed by Ahsan's Themes</small>
         </motion.div>
       </motion.div>
   );
