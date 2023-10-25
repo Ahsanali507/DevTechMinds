@@ -147,7 +147,7 @@ function Footer() {
           </motion.div>
         </motion.div>
         <motion.div className="flex items-center justify-center font-sans text-center bg-black footer-lower h-14">
-            <small className="text-white ">2023@ DevTech developed by Ahsan's Themes</small>
+            <small className="text-white ">2023-2024@ DevTech developed by Ahsan's Themes</small>
         </motion.div>
       </motion.div>
   );

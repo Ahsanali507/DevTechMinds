@@ -12,7 +12,7 @@ function ContactUs() {
         <p className="mb-8 font-light text-center text-gray-500 lg:mb-16 dark:text-gray-400 sm:text-xl">
           Got a technical issue? Want to get any help about anything feel free to get any help about anything? <strong className='font-bold'>Call at: <span className='text-black'>03186595507</span></strong> and also <strong className='font-bold'> Email us: <span className='text-black'>ahsanzjt@gmail.com</span> </strong>
         </p>
-        <form action="#" className="space-y-8">
+        <form action="/" className="space-y-8">
           <div>
             <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
               Your email
@@ -52,7 +52,7 @@ function ContactUs() {
             type="submit"
             className="px-5 py-3 text-sm font-medium text-center text-white rounded-lg bg-primary-600 sm:w-fit hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
           >
-            Send message
+            Send Message
           </button>
         </form>
       </div>
