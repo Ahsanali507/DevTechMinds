@@ -102,7 +102,7 @@ function Pricing() {
                   Expert
                 </h1>
                 <h2 className="text-sm text-gray-500 text-center pb-6">
-                  <span className="text-3xl">€19</span> /mo
+                  <span className="text-3xl">$19</span> /mo
                 </h2>
                   Simple and affordable prices for projects and other services you want. Give you a better opportunity to give you best work.
               </div>
@@ -179,7 +179,7 @@ function Pricing() {
                   <h1 className="text-lg font-medium uppercase p-3 pb-0 text-center tracking-wide">
                     Enterprise
                   </h1>
-                  <h2 className="text-sm text-gray-500 text-center pb-6">€39 /mo</h2>
+                  <h2 className="text-sm text-gray-500 text-center pb-6">$39 /mo</h2>
                   Stripe offers everything needed to run an online business at scale. Get in touch for details.
                 </div>
                 <div className="flex flex-wrap mt-3 px-6">
