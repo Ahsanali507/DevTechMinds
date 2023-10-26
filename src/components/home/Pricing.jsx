@@ -104,7 +104,7 @@ function Pricing() {
                 <h2 className="text-sm text-gray-500 text-center pb-6">
                   <span className="text-3xl">€19</span> /mo
                 </h2>
-                Stripe offers everything needed to run an online business at scale. Get in touch for details.
+                  Simple and affordable prices for projects and other services you want. Give you a better opportunity to give you best work.
               </div>
               <div className="flex pl-12 justify-start sm:justify-start mt-3">
                 <ul>
