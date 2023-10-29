@@ -7,7 +7,7 @@ function Footer() {
           <motion.div className="flex flex-col items-center justify-center w-1/4 px-2 aboutsection ">
             <h3 className="pb-20 text-2xl font-light">About Us</h3>
             <p className="ml-12">
-              Lorem ipsum dolor sit amet consectetur 
+              We can provide you better services that you want. 
             </p>
           </motion.div>
           <motion.div className="flex justify-center w-1/4 company">
