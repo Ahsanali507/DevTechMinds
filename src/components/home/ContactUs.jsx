@@ -10,7 +10,7 @@ function ContactUs() {
         </h2>
         <div className="w-24 h-1 mx-auto mt-4 rounded opacity-75 bg-primary-300"></div>
         <p className="mb-8 font-light text-center text-gray-500 lg:mb-16 dark:text-gray-400 sm:text-xl">
-          Got a technical issue? Want to get any help about anything feel free to get any help about anything? <strong className='font-bold'>Call at: <span className='text-black'>03186595507</span></strong> and also <strong className='font-bold'> Email us: <span className='text-black'>ahsanzjt@gmail.com</span> </strong>
+          If you got any issue, Want to get any help about anything feel free to get any help about anything? <strong className='font-bold'>Call at: <span className='text-black'>03186595507</span></strong> and also <strong className='font-bold'> Email us: <span className='text-black'>ahsanzjt@gmail.com</span> </strong>
         </p>
         <form action="/" className="space-y-8">
           <div>
