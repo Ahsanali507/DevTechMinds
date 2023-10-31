@@ -15,7 +15,7 @@ function ContactUs() {
         <form action="/" className="space-y-8">
           <div>
             <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-              Your email
+              email*
             </label>
             <input
               type="email"
@@ -27,7 +27,7 @@ function ContactUs() {
           </div>
           <div>
             <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-              Phone
+              Phone*
             </label>
             <input
               type="number"
@@ -39,7 +39,7 @@ function ContactUs() {
           </div>
           <div className="sm:col-span-2">
             <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">
-              Your message
+              message*
             </label>
             <textarea
               id="message"
